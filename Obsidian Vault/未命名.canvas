@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"1f5fc810fd8f8fc6","type":"text","text":"池化层","x":-100,"y":-20,"width":250,"height":60},
+		{"id":"a076c43fda21ee94","type":"text","text":"反向传播？","x":-93,"y":155,"width":250,"height":60},
+		{"id":"23ffd46b37c375b4","type":"text","text":"**激活函数，并不是去激活什么，而是指如何把“激活的神经元的特征”通过函数把特征保留并映射出来，即负责将神经元的输入映射到输出端。**","x":-227,"y":-237,"width":250,"height":177},
+		{"id":"35f3bba33bccd97a","type":"text","text":"**激活函数是用来加入非线性因素的，因为线性模型的表达力不够**(二极管思维——>偏激)","x":84,"y":-179,"width":250,"height":119},
+		{"id":"a47c6f21a3dba693","type":"file","file":"浅析激活函数之Relu函数.md","x":368,"y":-330,"width":400,"height":400},
+		{"id":"12f8e7afcc03f5f4","type":"text","text":"展平操作的目的是将多维张量转换为一维张量，以便传递给全连接层进行处理[1](https://blog.csdn.net/flyfor2013/article/details/105721695)。","x":-55,"y":-444,"width":250,"height":114},
+		{"id":"aef7562daeb7d811","type":"text","text":"多通道卷积过程，应该是输入一张三通道的图片，这时有多个卷积核进行卷积，并且每个卷积核都有三通道，分别对这张输入图片的三通道进行卷积操作。每个卷积核，分别输出三个通道，这三个通道进行求和，得到一个featuremap，有多少个卷积核，就有多少个featuremap","x":-393,"y":-520,"width":250,"height":283},
+		{"id":"6b823bef639c9bdd","type":"file","file":"CNN卷积核与通道讲解.md","x":368,"y":-778,"width":400,"height":400},
+		{"id":"1a24e01904b39a51","x":-65,"y":-1080,"width":250,"height":549,"type":"text","text":"在神经网络中，展平操作是指将多维的输入数据转换为一维向量的过程。例如，对于一张灰度图像，它通常是一个二维的矩阵，展平操作就是将这个矩阵按行排列成一个一维向量。类似地，对于彩色图像，它通常是一个三维的张量，展平操作就是将这个张量按通道和行列顺序排列成一个一维向量。\n\n展平操作可以理解为将输入数据从高维空间映射到低维空间，这样可以减少网络参数的数量，提高计算效率，同时保留了输入数据的关键特征。"},
+		{"id":"74233be1178c2659","x":336,"y":-1022,"width":364,"height":102,"type":"text","text":"1. 训练的依据——损失函数~ 2. 训练的过程——梯度下降~ 3. 训练的结果——权重更新~"}
+	],
+	"edges":[
+		{"id":"daac97c42671bad4","fromNode":"1f5fc810fd8f8fc6","fromSide":"bottom","toNode":"a076c43fda21ee94","toSide":"top"},
+		{"id":"92c2a37c073a6e96","fromNode":"23ffd46b37c375b4","fromSide":"right","toNode":"35f3bba33bccd97a","toSide":"left"},
+		{"id":"9b46ce93878df212","fromNode":"35f3bba33bccd97a","fromSide":"right","toNode":"a47c6f21a3dba693","toSide":"left"},
+		{"id":"4e542e2b1df63118","fromNode":"12f8e7afcc03f5f4","fromSide":"top","toNode":"1a24e01904b39a51","toSide":"bottom"}
+	]
+}

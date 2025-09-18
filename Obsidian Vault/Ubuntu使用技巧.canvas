@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"7dc2f3464fbf2ad3","type":"text","text":"Ubuntu使用技巧","x":-245,"y":-307,"width":250,"height":60,"color":"1"},
+		{"id":"2d983dec3c32329d","type":"text","text":"使用一段时间后键盘卡住","x":-245,"y":-400,"width":250,"height":60},
+		{"id":"ad81dffc847a7d34","x":-245,"y":-520,"width":250,"height":84,"type":"text","text":"https://blog.csdn.net/m0_73640344/article/details/143751927"},
+		{"id":"9fb3fbbcac4ddaeb","type":"text","text":"","x":-245,"y":-200,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"a18c8958b69b619b","fromNode":"7dc2f3464fbf2ad3","fromSide":"top","toNode":"2d983dec3c32329d","toSide":"bottom"},
+		{"id":"288d9f2e1f5b3b32","fromNode":"2d983dec3c32329d","fromSide":"top","toNode":"ad81dffc847a7d34","toSide":"bottom"}
+	]
+}
