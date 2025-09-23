@@ -409,12 +409,16 @@ mapping_avia.launch 在治疗上支持 mid-70、mid-40 或其他 livox 串行激
 
 ### 3.4 PCD 文件保存
 
+1. Enable `pcd_save.pcd_save_en` in the config file and set the `map_file_path` to the path where the map will be saved.
+2. Launch the fastlio2 according to README.
+3. Open RQt and switch to `Plugins->Services->Service Caller`. Trigger the service `/map_save`, then the pcd map file will be generated(click call)
+在终端输入rqt即可打开rqt
 
-在启动文件中设置为 。所有扫描（全局帧）将在 FAST-LIO 终止后累积并保存到文件中。可以可视化点云。`pcd_save_enable``1``FAST_LIO/PCD/scans.pcd``pcl_viewer scans.pcd`
+`pcl_viewer scans.pcd` can visualize the point clouds.
 
-_给pcl_viewer的提示：_
+_Tips for pcl_viewer:_
 
-- 运行时按键盘 1,2,3,4,5 更改要可视化/着色的内容pcl_viewer。
+- change what to visualize/color by pressing keyboard 1,2,3,4,5 when pcl_viewer is running.
 
 ```
     1 is all random
@@ -422,4 +426,76 @@ _给pcl_viewer的提示：_
     3 is Y values
     4 is Z values
     5 is intensity
+```
+
+### pcl_viewer使用教程：
+安装
+```
+sudo apt-get install  pcl-tools
+```
+查看点云的命令如下：
+```
+pcl_viewer test.pcd
+```
+快捷键：
+
+按下键盘h或H后，可以查看一些可用的快捷键，如下所示，可以看到，当我们打开一个pcd文件后，终端会输出它的点云个数。
+```
+> Loading room_scan1.pcd [done, 434 ms : 112586 points]
+Available dimensions: x y z
+| Help:
+-------
+          p, P   : switch to a point-based representation
+          w, W   : switch to a wireframe-based representation (where available)
+          s, S   : switch to a surface-based representation (where available)
+
+          j, J   : take a .PNG snapshot of the current window view
+          c, C   : display current camera/window parameters
+          f, F   : fly to point mode
+
+          e, E   : exit the interactor
+          q, Q   : stop and call VTK's TerminateApp
+
+           +/-   : increment/decrement overall point size
+     +/- [+ ALT] : zoom in/out 
+
+          g, G   : display scale grid (on/off) #显示坐标轴
+          u, U   : display lookup table (on/off)
+
+    o, O         : switch between perspective/parallel projection (default = perspective)
+    r, R [+ ALT] : reset camera [to viewpoint = {0, 0, 0} -> center_{x, y, z}]
+    CTRL + s, S  : save camera parameters
+    CTRL + r, R  : restore camera parameters
+
+    ALT + s, S   : turn stereo mode on/off
+    ALT + f, F   : switch between maximized window mode and original size
+
+          l, L           : list all available geometric and color handlers for the current actor map
+    ALT + 0..9 [+ CTRL]  : switch between different geometric handlers (where available)
+          0..9 [+ CTRL]  : switch between different color handlers (where available)
+
+    SHIFT + left click   : select a point (start with -use_point_picking)
+
+          x, X   : toggle rubber band selection mode for left mouse button
+
+```
+查看点云的坐标
+```
+pcl_viewer test.pcd -use_point_picking
+```
+
+然后按住`shift`选择点，在界面显示界面选择点云之后，会在终端输出点云坐标。
+启用xyz轴:
+显示xyz轴
+```
+pcl_viewer test.pcd -ax 5 #5表示轴的放大倍数
+```
+一次打开多个pcd文件:
+不同窗口分别打开pcd文件
+```
+ pcl_viewer -multiview 1 pig1.pcd pig2.pcd test.pcd
+```
+同一窗口打开不同pcd文件
+```
+ pcl_viewer pig1.pcd pig2.pcd test.pcd
 ```

@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "e8993c7974ed0001",
+    "type": "split",
+    "children": [
+      {
+        "id": "58cf2ffa98ce8c3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b6c681f7a541b0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/日志/第一周.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第一周"
+            }
+          },
+          {
+            "id": "f078928994b02283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/笔记/Fast-lio2实现.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fast-lio2实现"
+            }
+          },
+          {
+            "id": "60223d9c420e7440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/笔记/MID360环境配置.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MID360环境配置"
+            }
+          },
+          {
+            "id": "d272fb65612e8ef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/笔记/常用命令.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "常用命令"
+            }
+          },
+          {
+            "id": "38649d0056063e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/笔记/调试记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "调试记录"
+            }
+          },
+          {
+            "id": "3c338991a0e9aa50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/笔记/Fast-lio2重定位.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fast-lio2重定位"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1fda66cfcfa6061",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9e9cf4dcdff8cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5de504f24c60be50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7dfbeaa27bc49588",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "build",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f7b5d68023e33a32",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5
+  },
+  "right": {
+    "id": "a5be4544eb5af407",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e3458ec50006a7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e484a8b126f7b78e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "RC/日志/第一周.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "第一周 的反向链接列表"
+            }
+          },
+          {
+            "id": "0523d95b6b197f06",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "RC/日志/第一周.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "第一周 的出链列表"
+            }
+          },
+          {
+            "id": "d02b6944c6f65168",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2bbb1ec6b76937c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "RC/日志/第一周.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第一周 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "38649d0056063e86",
+  "lastOpenFiles": [
+    "RC/笔记/常用命令.md",
+    "RC/笔记/调试记录.md",
+    "RC/笔记/Fast-lio2 Polaris.md",
+    "RC/笔记/Fast-lio2实现.md",
+    "RC/笔记/MID360环境配置.md",
+    "RC/笔记/FAST-LIVO2.md",
+    "RC/笔记/Fast-lio2重定位.md",
+    "数学建模/25国赛A题/25国赛A题记录.md",
+    "RC/笔记/MID360相关配置与参数.md",
+    "RC/日志/第一周.md",
+    "RC/考核题/视觉组考核题笔记.md",
+    "RC/ROS学习/ROS_赵虚左.md",
+    "RC/ROS学习/img/2025-08-18 11-54-25 的屏幕截图 1.png",
+    "RC/ROS学习/img/2025-08-18 11-54-12 的屏幕截图.png",
+    "RC/视觉组考核题笔记.md",
+    "义卖总结.md",
+    "CNN卷积核与通道讲解.md",
+    "未命名.canvas",
+    "图卷积网络(Graph Convolutional Networks, GCN)详细介绍.md",
+    "浅析激活函数之Relu函数.md",
+    "2025-09-17 15-35-25 的屏幕截图.png",
+    "docker安装.md",
+    "erp VPN.md",
+    "Ubuntu使用技巧.canvas"
+  ]
+}
