@@ -1,4 +1,4 @@
-``` bash
+newgrp docker ``` bash
 source activate isaaclab_4_5_0
 ```
 

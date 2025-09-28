@@ -40,7 +40,7 @@ _Remarks:_
     colcon build --symlink-install
     . ./install/setup.bash # use setup.zsh if use zsh
 ```
-https://github.com/Getting05/FAST_LIO_ROS2/tree/ros2.git
+https://github.com/Getting05/FAST_LIO_ROS2.git
 **这里可直接拉取我更改后的仓库，避免后续冲突**
 
 
