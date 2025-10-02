@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "7649a7d3e1fc27de",
+    "type": "split",
+    "children": [
+      {
+        "id": "09af8684fdfafcc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c92cfc70d078cf53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Vault/RC/笔记/Docker使用指南.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker使用指南"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07ff6516b722ccd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "978d1937907e3fe1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8e8395a0f1275c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "08b902237c4a4aef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bc8568be74961219",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f61ff88f75959d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "47ca8be3d007de8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42e5b91f6a5d1d3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian Vault/RC/笔记/Docker使用指南.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Docker使用指南"
+            }
+          },
+          {
+            "id": "f917709ddfd9cd5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian Vault/RC/笔记/Docker使用指南.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Docker使用指南"
+            }
+          },
+          {
+            "id": "1365414ca7358be1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d4c6e16c44df0b87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian Vault/RC/笔记/Docker使用指南.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Docker使用指南"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c92cfc70d078cf53",
+  "lastOpenFiles": [
+    "Obsidian Vault/RC/笔记/fast_lio2_relocation2_ws.md",
+    "Obsidian Vault/RC/笔记/Docker使用指南.md",
+    "Obsidian Vault/RC/笔记/MID360环境配置.md",
+    "Obsidian Vault/RC/笔记/Fast-livo2.md",
+    "Obsidian Vault/RC/笔记/Fast-lio2重定位.md",
+    "Obsidian Vault/RC/笔记/Fast-lio2实现.md",
+    "Obsidian Vault/RC/笔记/MID360相关配置与参数.md",
+    "Obsidian Vault/RC/笔记/mid360 realsense 时间同步方案.md"
+  ]
+}
