@@ -11,9 +11,9 @@ https://www.coldwindy.cn/index.php/2025/03/28/fast-livo2%e5%a4%8d%e7%8e%b0%e4%bb
 > 如果只提供LiDAR数据，系统会运行纯LO（LiDAR Odometry）模式。如果提供LiDAR和IMU数据，系统会运行LIO（LiDAR-Inertial Odometry）模式。如果同时提供LiDAR、IMU和camera数据，系统则会运行LIVO（LiDAR-Inertial-Visual Odometry）模式。系统会根据输入数据自动选择相应的模式运行。
 
 
-因为FAST-LIVO2目前依赖的是Livox_ros_driver，而Mid-360依赖Livox_ros_driver2，导致代码段产生冲突，所以有两种解决方案：
+因为FAST-LIVO2目前依赖的是Livox_ros_driver，而Mid-360依赖Livox_ros_driver2，导致代码段产生冲突，解决方案：
 
-1、替换FAST-LIVO2中所有`livox_ros_drvier`代码段为`livox_ros_driver2`。
+替换FAST-LIVO2中所有`livox_ros_drvier`代码段为`livox_ros_driver2`。
 https://github.com/Livox-SDK/livox_ros_driver2
 
 
@@ -59,7 +59,7 @@ SO2::SO2() : unit_complex_(1., 0.) {}
 
 
 workspace文件结构如下：
-
+src
 ├── CMakeLists.txt 
 ├── FAST-LIVO2
 ├── livox_ros_driver
@@ -106,7 +106,7 @@ mid360的配置文件：
 ```
 //如果使用了pcl5大佬的fastlivo2可以不用看这一部分新增文件
 common:
-  img_topic: "/left_camera/image"
+  img_topic: "/left_camera/image"sudo make install
   lid_topic: "/livox/lidar"
   imu_topic: "/livox/imu"
   img_en: 1
@@ -161,4 +161,6 @@ roslaunch livox_ros_driver2 msg_MID360.launch
 
 
 遇到如下问题，/cloud_registered ，没有任何数据，rviz上也没有任何结果
+
+
 

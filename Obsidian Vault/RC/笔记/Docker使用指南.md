@@ -1,3 +1,5 @@
+cd /usr
+
 为了docker环境中也能使用NVDIA显卡，要现在宿主机中作如下配置
 ```bash
 # 宿主机执行，添加 NVIDIA Docker 软件源
@@ -61,6 +63,15 @@ sudo docker run -dit \
 sudo docker stop foxy
 sudo docker rm foxy
 ```
+
+
+```bash
+sudo tee /etc/modprobe.d/blacklist-nouveau.conf <<-'EOF'
+blacklist nouveau
+options nouveau modeset=0
+EOF
+```
+
 
 docker环境中部分编译路径要手动设置：
 
